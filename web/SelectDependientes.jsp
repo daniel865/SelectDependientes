@@ -63,64 +63,11 @@
                                 
                             </select>
                         </div>
-                    </div>
-                    
-
+                    </div>    
                 </fieldset>
             </form>
 
-            <!-- Modal Buscar-->
-            <form class="form-horizontal" action="ServletEmpleado" method="POST" >
-                <div class="modal fade" id="ModalBuscar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myModalLabel">Buscar Empleado</h4>
-                            </div>
-                            <div class="modal-body">
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label" for="buscar">Número de Identificación</label>
-                                    <div class="col-md-4">
-                                        <input id="buscar_emp" name="buscar_emp" placeholder="" class="form-control input-md" type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                                <input type="submit" value="Consultar" class="btn btn-primary" name="accion" id="btnbuscarb">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
-
-
-            <!-- Modal Eliminar-->
-            <form class="form-horizontal" action="ServletEmpleado" method="POST" >
-                <div class="modal fade" id="ModalEliminar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title" id="myModalLabel">Eliminar Empleado</h4>
-                            </div>
-                            <div class="modal-body">
-                                <div class="form-group">
-                                    <label class="col-md-4 control-label" for="buscar">Número de Identificación</label>
-                                    <div class="col-md-4">
-                                        <input id="eliminar_emp" name="eliminar_emp" placeholder="" class="form-control input-md" type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                                <input type="submit" value="Eliminar" class="btn btn-primary" name="accion" id="btnbuscare">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </form>
+            
 
 
         </div>
